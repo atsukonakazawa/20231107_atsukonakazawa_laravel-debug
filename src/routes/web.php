@@ -20,3 +20,7 @@ Route::get('/find',[AuthorController::class,'find']);
 Route::post('/find',[AuthorController::class,'search']);
 Route::get('/add',[AuthorController::class,'add']);
 Route::post('/add',[AuthorController::class,'create']);
+Route::post('/edit',[AuthorController::class,'update']);
+Route::get('/edit',[AuthorController::class,'edit']);
+Route::get('/delete',[AuthorController::class,'delete']);
+Route::post('/delete',[AuthorController::class,'remove']);
